@@ -1,4 +1,4 @@
-/********** Base styles **********/
+/********** Box Styles **********/
 * {
 	margin: 0;
 	padding: 0;
@@ -31,6 +31,7 @@ p {
 	border: 1px solid #000000;
 	margin: 15px;
 	position: relative;
+    padding: 
 }
     p {
 	padding: 40px 10px 10px 10px;
@@ -53,11 +54,11 @@ p {
   width: 100%;
 }
 
-/********** Desktop devices only **********/
+/********** Desktop Views **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid blue;
+    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -97,7 +98,7 @@ p {
   }
 }
 
-/********** Tablet devices only **********/
+/********** Tablet Views **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -141,7 +142,7 @@ p {
   }
 }
 
-    /********** Mobile devices only **********/
+    /********** Mobile views **********/
 @media (min-width: 1px) and (max-width: 767px) {
   .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
     float: left;
